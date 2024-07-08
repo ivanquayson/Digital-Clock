@@ -73,3 +73,13 @@
     text-align: center;
     position: relative;
 }
+
+.clock span::after
+{
+    content: 'HOURS';
+    font-size: 16px;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
