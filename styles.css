@@ -99,3 +99,14 @@
 {
     content: 'SECONDS';
 }
+
+#ampm
+{
+    font-size: 50px;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
