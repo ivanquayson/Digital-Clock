@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         hours = hours % 12;
         hours = hours ? hours : 12;
 
-        hrs.innerHTML = (currentTime.getHours()<10?"0":"") + currentTime.getHours();
+        hrs.innerHTML = (hours < 10 ? "0" : "") + hours;
         min.innerHTML = (currentTime.getMinutes()<10?"0":"") + currentTime.getMinutes();
         sec.innerHTML = (currentTime.getSeconds()<10?"0":"") + currentTime.getSeconds();
         ampm.innerHTML = ampmText;
